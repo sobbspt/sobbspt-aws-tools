@@ -1,5 +1,11 @@
 ## Usage ##
 
+#### CLI Params ####
+* _profile_name_ : Your profile in AWS credential file
+* _region_name_ : Region name Example. ap-southeast-1
+* _tag_name_ : Your EC2 tag name
+* _tag_value_ : Your EC2 tag value
+
 #### Starting ####
 
 ```
