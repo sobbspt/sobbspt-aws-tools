@@ -17,7 +17,7 @@ instanceID = []
 i = 0
 for res in reservations:
     for inst in res.instances:
-        if inst.state == "stopped":
+        if inst.state == "running":
             ec2conn.stop_instances(inst.id)
             i += 1
 
